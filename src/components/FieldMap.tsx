@@ -47,7 +47,7 @@ const FieldMap = () => {
       <CardContent>
         {/* Simplified Map Visualization */}
         <div className="relative h-64 bg-gradient-to-br from-green-100 to-emerald-50 rounded-lg border-2 border-green-200 mb-6 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23059669" fill-opacity="0.1"%3E%3Cpath d="M20 20c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10zm10 0c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10z"/%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+          <div className="absolute inset-0 bg-green-100 opacity-30"></div>
           
           {/* Field Markers */}
           <div className="absolute top-4 left-8 w-4 h-4 bg-green-500 rounded-full animate-pulse shadow-lg"></div>
